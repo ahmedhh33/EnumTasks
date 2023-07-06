@@ -34,6 +34,12 @@
             FavoriteColor.DiscoverYourFavoriteColor(input4);
             Console.WriteLine();
 
+            Console.WriteLine("Task5");
+            Console.WriteLine("Enter duration togking light in millisecond ");
+            int PuseDuration = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter number of iteration sequence you need ");
+            int iterationsequence = int.Parse(Console.ReadLine());
+            TrafficLights.TrafficLightSequence(PuseDuration, iterationsequence);
 
         }
     }
