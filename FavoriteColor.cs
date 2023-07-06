@@ -13,6 +13,65 @@ namespace EnumTasks
         {
             this.favoritecolor = favoritecolor;
         }
+        public static void DiscoverYourFavoriteColor(int input)
+        {
+            try
+            {
+
+                Favoritecolor favoritecolor = (Favoritecolor)input;//used to cast the integer input to the Favoritecolor enum type.
+                if (Favoritecolor.green == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());//print the enums
+                }
+                else if (Favoritecolor.red == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.gray == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.yellow == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.black == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.blue == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.brown == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.orange == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.pink == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.purple == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+                }
+                else if (Favoritecolor.white == favoritecolor)
+                {
+                    Console.WriteLine(favoritecolor.ToString());
+
+                }
+                else Console.WriteLine();
+            }catch(Exception ex)
+            {
+                Console.WriteLine("Wronge choisee");
+            }
+
+
+        }
         public static void CheckYourFavoriteColor(String input)
         {
 
@@ -31,7 +90,7 @@ namespace EnumTasks
                 }
                 else if (Favoritecolor.gray == favoriteColor)
                 {
-                    Console.WriteLine($"FOR this size{Favoritecolor.gray} 100 items available");
+                    Console.WriteLine($"FOR this size{Favoritecolor.gray} 10 items available");
                 }
                 else if (Favoritecolor.yellow == favoriteColor)
                 {
@@ -55,11 +114,15 @@ namespace EnumTasks
                 }
                 else if (Favoritecolor.pink == favoriteColor)
                 {
-                    Console.WriteLine($"FOR this size{Favoritecolor.pink} 100 items available");
+                    Console.WriteLine($"FOR this size{Favoritecolor.pink} 5 items available");
                 }
                 else if (Favoritecolor.purple == favoriteColor)
                 {
-                    Console.WriteLine($"FOR this size{Favoritecolor.purple} 23 items available");
+                    Console.WriteLine($"FOR this size{Favoritecolor.purple} 2573 items available");
+                }
+                else if (Favoritecolor.white == favoriteColor)
+                {
+                    Console.WriteLine($"FOR this size{Favoritecolor.white} 65 items available");
                 }
                 else Console.WriteLine();
             }

@@ -27,6 +27,13 @@
             FavoriteColor.CheckYourFavoriteColor(input3);
             Console.WriteLine();
 
+            Console.WriteLine("Task4");
+            Console.Write("Enter number from 0 to 10 :");
+            Console.WriteLine();
+            int input4 = int.Parse(Console.ReadLine());
+            FavoriteColor.DiscoverYourFavoriteColor(input4);
+            Console.WriteLine();
+
 
         }
     }

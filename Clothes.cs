@@ -46,13 +46,14 @@ namespace EnumTasks
                 Console.WriteLine("You intered Wrong choices");
             }
         }
+        
     }
     
     enum ClothesSize
     {
-        SMALL,
-        MEDIUM,
-        LARGE,
-        XLARGE
+        SMALL=22,
+        MEDIUM=34,
+        LARGE=80,
+        XLARGE=23
     }
 }

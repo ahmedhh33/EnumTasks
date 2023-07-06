@@ -17,8 +17,9 @@ namespace EnumTasks
 
         public static void Dayscheduale(String days)
         {
-            
 
+            try
+            {
                 DoW day;//giv enum name
 
                 if (Enum.TryParse(days, out day))//convert from enum to string it takes input string and out put nam of enum
@@ -27,27 +28,32 @@ namespace EnumTasks
                     {
                         case DoW.SUNDAY:
                             Console.WriteLine("You Do not have nothing scheduled");
-                            break;
+                        break;
                         case DoW.MONDAY:
                             Console.WriteLine("You Have To go to GYM");
-                            break;
+                        break;
                         case DoW.TUSDAY:
                             Console.WriteLine("You Have job test");
-                            break;
+                        break;
                         case DoW.WEDNESDAY:
                             Console.WriteLine("You Have job intervew");
-                            break;
+                        break;
                         case DoW.THURSDAY:
                             Console.WriteLine("you have nuthing");
-                            break;
+                        break;
                         case DoW.FRIDAY:
                             Console.WriteLine("Jomaa Prayer");
-                            break;
+                        break;
                         case DoW.SATURDAY:
                             Console.WriteLine("End the Break");
-                            break;
+                        break;
                     }
                 }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("You Entered Wrong Choice");
+            }
         }
       
 
