@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\bin\Debug\net6.0\EnumTasks.exe
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\bin\Debug\net6.0\EnumTasks.deps.json
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\bin\Debug\net6.0\EnumTasks.runtimeconfig.json
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\bin\Debug\net6.0\EnumTasks.dll
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\bin\Debug\net6.0\EnumTasks.pdb
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.AssemblyInfo.cs
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.dll
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\refint\EnumTasks.dll
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.pdb
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\EnumTasks.genruntimeconfig.cache
+C:\Users\TRA\Desktop\TRA-Code\EnumTasks\obj\Debug\net6.0\ref\EnumTasks.dll
